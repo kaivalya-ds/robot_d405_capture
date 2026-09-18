@@ -1,0 +1,21 @@
+{
+  "schema": "ur7e-object-center/1",
+  "robot_ip": "192.168.1.101",
+  "frame": "base",
+  "position_m": [
+    0.06154821894945915,
+    0.4675791732895301,
+    0.18046383068812077
+  ],
+  "reference_quat_xyzw": [
+    0.6947532728203561,
+    0.7192481419387908,
+    0.00000487866270386408,
+    -0.00001411379912833675
+  ],
+  "robot_state_at_recording": {
+    "derived_mode": "IDLE",
+    "safety": "NORMAL",
+    "fault": false
+  }
+}
