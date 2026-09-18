@@ -1,0 +1,23 @@
+{
+  "jig_name": "jig2",
+
+  "apriltag": {
+    "dictionary": "DICT_APRILTAG_36h11",
+    "tag_size_mm": 20.0,
+    "corner_shift": 0
+  },
+
+  "stl_to_object_mm": [0.0, 0.0, 0.0],
+
+  "object_to_tag": {
+    "0": { "xyz_mm": [-32.5, 6.9,  32.5], "rpy_deg": [90.0, 0.0, 180.0] },
+    "1": { "xyz_mm": [ 32.5, 6.9,  32.5], "rpy_deg": [90.0, 0.0, 180.0] },
+    "2": { "xyz_mm": [ 32.5, 6.9, -32.5], "rpy_deg": [90.0, 0.0, 180.0] },
+    "3": { "xyz_mm": [-32.5, 6.9, -32.5], "rpy_deg": [90.0, 0.0, 180.0] }
+  },
+
+  "reproj_err_max_px": 3.0,
+  "min_tags": 1,
+
+  "cad_stl": "metal.stl"
+}
